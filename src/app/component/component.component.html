@@ -1,4 +1,5 @@
-<p>component works!</p>
+<p>Component works!</p>
+
 <!-- ✅ Bind anchor tag href to eUrl -->
 <a [href]="eUrl">Google</a>
 
@@ -7,3 +8,18 @@
 
 <!-- ✅ Bind class dynamically -->
 <div [class]="clcolor">This is from CSS</div>
+
+<h2>{{str}}</h2>
+<button (click)="clicked()">Click me</button>
+
+
+<!-- @if(a>b){
+{{a}} is greater than {{b}}
+}@else {
+{{b}} is greater than {{a}}
+} -->
+
+<div *ngIf="a>b" > A is greater </div>
+
+
+
